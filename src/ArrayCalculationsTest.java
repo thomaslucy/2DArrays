@@ -26,20 +26,20 @@ public class ArrayCalculationsTest {
 
     }
 
-//    @Test
-//    public void columnSum() {
-//        assertEquals(190, ArrayCalculations.columnSum(arr2, 2));
-//    }
-//
-//    @Test
-//    public void columnSumBadLow() {
-//        assertEquals(-1, ArrayCalculations.columnSum(arr2, -4));
-//    }
-//
-//    @Test
-//    public void columnSumBadHigh() {
-//        assertEquals(-1, ArrayCalculations.columnSum(arr2, arr2.length));
-//    }
+    @Test
+    public void columnSum() {
+        assertEquals(190, ArrayCalculations.columnSum(arr2, 2));
+    }
+
+    @Test
+    public void columnSumBadLow() {
+        assertEquals(-1, ArrayCalculations.columnSum(arr2, -4));
+    }
+
+    @Test
+    public void columnSumBadHigh() {
+        assertEquals(-1, ArrayCalculations.columnSum(arr2, arr2.length));
+    }
 //
 //    @Test
 //    public void diagonalSumUp() {

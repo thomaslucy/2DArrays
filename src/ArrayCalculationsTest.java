@@ -40,20 +40,20 @@ public class ArrayCalculationsTest {
     public void columnSumBadHigh() {
         assertEquals(-1, ArrayCalculations.columnSum(arr2, arr2.length));
     }
-//
-//    @Test
-//    public void diagonalSumUp() {
-//        assertEquals(-32, ArrayCalculations.diagonalSum(arr3, 1));
-//    }
-//
-//    @Test
-//    public void diagonalSumDown() {
-//        assertEquals(2, ArrayCalculations.diagonalSum(arr3, 0));
-//    }
-//
-//    @Test
-//    public void diagonalSumBad() {
-//        assertEquals(-1, ArrayCalculations.diagonalSum(arr3, 3));
-//    }
+
+    @Test
+    public void diagonalSumUp() {
+        assertEquals(-32, ArrayCalculations.diagonalSum(arr3, 1));
+    }
+
+    @Test
+    public void diagonalSumDown() {
+        assertEquals(2, ArrayCalculations.diagonalSum(arr3, 0));
+    }
+
+    @Test
+    public void diagonalSumBad() {
+        assertEquals(-1, ArrayCalculations.diagonalSum(arr3, 3));
+    }
 
 }
